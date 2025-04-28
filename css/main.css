@@ -126,3 +126,9 @@ a {
   align-items: center;
   gap: 12px;
 }
+.stats__circle {
+  width: 8px;
+  height: 8px;
+  background-color: #ff3f3a;
+  border-radius: 50%;
+}
