@@ -51,6 +51,21 @@ a {
   line-height: 130%;
   color: #1e212c;
 }
+.section__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+}
+/* Hero background */
+.hero {
+  background-image: url("../images/hero-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1080px;
+}
 /* Header section styles */
 .header {
   padding: 24px 0;
@@ -116,6 +131,9 @@ a {
   margin-right: 20px;
 }
 /* Stats section styles */
+.stats {
+  padding: 48px 0;
+}
 .stats__wrapper {
   display: flex;
   align-items: center;
@@ -131,4 +149,40 @@ a {
   height: 8px;
   background-color: #ff3f3a;
   border-radius: 50%;
+}
+/* About section styles */
+.about {
+  background-image: url("../images/about-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about__wrapper {
+  padding: 128px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 112px;
+}
+.about__item {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.about__check {
+  margin-top: 8px;
+  width: 16px;
+  height: 16px;
+}
+.about__text {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #424551;
+}
+.about__title {
+  margin-top: 8px;
+  margin-bottom: 28px;
+}
+.about__btn {
+  margin-top: 32px;
 }
