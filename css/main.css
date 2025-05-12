@@ -187,6 +187,9 @@ a {
   margin-top: 32px;
 }
 /* Courses section styles */
+.courses {
+  margin-bottom: 128px;
+}
 .courses__top {
   display: flex;
   align-items: center;
@@ -255,4 +258,37 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 150%;
+}
+/* Benefits section styles */
+.benefits__top--content {
+  text-align: center;
+}
+.benefits__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 48px 0;
+}
+.benefits__item {
+  flex: 1;
+}
+.benefits__tab {
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #9a9ca5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+.benefits__tab.active {
+  border: 1px solid #ff3f3a;
+  border-radius: 4px;
+  padding: 8px 0;
+  color: #ff3f3a;
 }
